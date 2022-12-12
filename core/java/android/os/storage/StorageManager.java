@@ -1693,6 +1693,7 @@ public class StorageManager {
         return RoSystemProperties.CRYPTO_ENCRYPTED;
     }
 
+    /** {@hide} */
     public static boolean inCryptKeeperBounce() {
         return false;
     }
